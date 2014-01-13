@@ -7,6 +7,9 @@ The URLs in 'data-soy-include' and 'data-soy-layout' attributes are specified as
 * The path defines the server-side template resource which must be returned as compiled javascript function from the server
 * The hash defines the namespace and template-name to call
 
+
+In current state a moden browser (Chrome, FF, IE9+) are required as well as jQuery 2. The included Java server is just for development purpose and is not required.
+
 ## Example
 
     {namespace test}
