@@ -1,0 +1,31 @@
+{namespace test}
+
+/**
+ *
+ */
+{template .test}
+  <ul>
+    <li>a</li>
+    <li>b</li>
+    <li>c</li>
+    <li>d</li>
+    <li>e</li>
+  </ul>
+{/template}
+
+/**
+ *
+ */
+{template .test2}
+  <div data-soy-layout="/soy/test.html#test.layout">
+    <span data-soy-include="/soy/test.html#test.test"></span>
+  </div>
+{/template}
+
+/**
+ *
+ */
+{template .layout}
+  <div style="font-weight:bold;" data-soy-insert>
+  </div>
+{/template}
