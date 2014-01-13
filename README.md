@@ -1,4 +1,4 @@
-== Clientside Extension for Closure-Templates
+## Clientside Extension for Closure-Templates
 
 This repo contains a small javascript to extend the closure-template engine with includes and layouts on the client side.
 The data attributes 'data-soy-include', 'data-soy-layout' and 'data-soy-insert' are used as marker where to process dom.
@@ -7,7 +7,7 @@ The URLs in 'data-soy-include' and 'data-soy-layout' attributes are specified as
 * The path defines the server-side template resource which must be returned as compiled javascript function from the server
 * The hash defines the namespace and template-name to call
 
-== Example
+## Example
 
     {namespace test}
 
